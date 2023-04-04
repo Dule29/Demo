@@ -1,0 +1,30 @@
+import React, { Fragment } from "react";
+
+
+import "./Header.css";
+
+ export const Header = () => {
+  return (
+    <Fragment>
+      <header className="container-fluid d-flex align-items-center p-4  flex-wrap justify-content-sm-center justify-content-md-between justify-content-center">
+        
+        <h1>Interview Reports</h1>
+        
+        <div className="d-flex flex-wrap justify-content-sm-center">
+          
+            <button type="button" className="btn button active-route">
+              Candidates
+            </button>
+          
+          
+            <button type="button" className="btn button active-route">
+              Reports
+            </button>
+          
+        </div>
+      </header>
+    </Fragment>
+  );
+};
+
+
